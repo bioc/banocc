@@ -1,0 +1,20 @@
+Package: banocc
+Type: Package
+Title: Bayesian ANalysis Of Compositional Covariance
+Version: 0.99.4
+Date: 2015-04-14
+Authors@R: person("Emma", "Schwager", email =
+        "emh146@mail.harvard.edu", role = c("aut", "cre"))
+Description: BAnOCC is a package designed for compositional data, where
+        each sample sums to one. It infers the approximate covariance
+        of the unconstrained data using a Bayesian model coded with
+        `rstan`. It provides as output the `stanfit` object as well as
+        posterior median and credible interval estimates for each
+        correlation element.
+License: MIT + file LICENSE
+Depends: R (>= 3.4), rstan (>= 2.10.1)
+Imports: coda (>= 0.18.1), mvtnorm, stringr
+Suggests: knitr, rmarkdown, methods, testthat
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
+biocViews: Metagenomics, Software, Bayesian
