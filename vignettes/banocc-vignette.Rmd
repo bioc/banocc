@@ -135,7 +135,6 @@ rerun <- 0
 ```
 
 ```{r basic-run-banocc, eval=TRUE, cache=TRUE, dependson=c('rerun'), results="hide"}
-Sys.setenv("PKG_CXXFLAGS"="-std=c++11")
 data(compositions_null)
 compiled_banocc_model <- rstan::stan_model(model_code = banocc::banocc_model) 
 b_fit     <- banocc::run_banocc(C = compositions_null, compiled_banocc_model=compiled_banocc_model)
