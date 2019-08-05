@@ -149,7 +149,6 @@ The hyperparameter values can be specified as input to
 diagram figure (see section [The Model]). For example,
 
 ```{r input-hyperparameters, eval=TRUE, cache=TRUE, dependson=c('rerun'), results="hide"} 
-Sys.setenv("PKG_CXXFLAGS"="-std=c++11")
 p <- ncol(compositions_null)
 b_fit_hp <- banocc::run_banocc(C = compositions_null, 
                                compiled_banocc_model = compiled_banocc_model,

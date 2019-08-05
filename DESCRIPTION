@@ -2,7 +2,7 @@ Package: banocc
 Type: Package
 Title: Bayesian ANalysis Of Compositional Covariance
 Version: 1.9.1
-Date: 2019-07-15
+Date: 2019-08-05
 Authors@R: c(person("Emma", "Schwager", email =
         "emh146@mail.harvard.edu", role = c("aut", "cre")),
         person("Curtis", "Huttenhower",email = "chuttenh@hsph.harvard.edu",  role = "aut"))
