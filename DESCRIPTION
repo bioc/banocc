@@ -1,8 +1,8 @@
 Package: banocc
 Type: Package
 Title: Bayesian ANalysis Of Compositional Covariance
-Version: 1.19.0
-Date: 2019-08-05
+Version: 1.19.1
+Date: 2022-04-20
 Authors@R: c(person("Emma", "Schwager", email =
         "emh146@mail.harvard.edu", role = c("aut", "cre")),
         person("Curtis", "Huttenhower",email = "chuttenh@hsph.harvard.edu",  role = "aut"))
@@ -17,7 +17,7 @@ Description: BAnOCC is a package designed for compositional data, where
 License: MIT + file LICENSE
 Depends: R (>= 3.5.1), rstan (>= 2.17.4)
 Imports: coda (>= 0.18.1), mvtnorm, stringr
-Suggests: knitr, rmarkdown, methods, testthat
+Suggests: knitr, rmarkdown, methods, testthat, BiocStyle
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1
 biocViews: ImmunoOncology, Metagenomics, Software, Bayesian
